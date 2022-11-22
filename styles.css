@@ -1,3 +1,16 @@
+@font-face {
+    font-family: ;
+    src: url();
+}
+
+body {
+    font-family: 'Sono', sans-serif;
+}
+
+body, html {
+    height: 100%;
+}
+
 nav {
     background-color:  orange;
     padding: 20px;
@@ -9,6 +22,7 @@ nav ul {
 
 nav ul li {
     display: inline;
+    padding: 5px;
 }
 
 nav ul li a {
@@ -16,17 +30,25 @@ nav ul li a {
 }
 
 header {
-    background-color: cadetblue;
+    /* I think you need to darken the background image so the text sticks out */
     background-image: url("./images/laptop-screen.jpg");
+    height: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
     background-size: cover;
+    position: relative;
+}
+
+.hero {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     color: white;
 }
 
-header h1 {
-    text-align: center;
+.hero h1 {
     font-size: 40px;
-}
-
-header p {
-    text-align: center;
+    padding: 10px;
 }
