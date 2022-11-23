@@ -48,3 +48,18 @@ header {
     font-size: 40px;
     padding: 10px;
 }
+
+.skills {
+    color: white;
+    background-color: black;
+}
+
+.skills h2 {
+    text-align: center;
+    font-size: 30px;
+    padding 10px;
+}
+
+.skills img {
+    background-color: white;
+}
