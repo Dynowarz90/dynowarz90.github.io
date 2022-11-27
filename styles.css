@@ -22,11 +22,11 @@ nav ul li {
 }
 
 nav ul li a {
+    color: blue;
     text-decoration: none;
 }
 
 header {
-    /* I think you need to darken the background image so the text sticks out */
     background-image: linear-gradient(rgba(0, 0, 0, 0.5),
     rgba(0, 0, 0, 0.5)),url("./images/laptop-screen.jpg");
     height: 100%;
@@ -66,4 +66,15 @@ header {
 
 .skills img {
     background-color: white;
+    height: 500px;
+    width: 500px;
+}
+
+footer {
+    background-color: purple;
+}
+
+footer ul li a{
+    color: yellow;
+    text-decoration: none;
 }
